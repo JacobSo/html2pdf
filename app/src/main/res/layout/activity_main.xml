@@ -1,0 +1,36 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+
+        <Button
+            android:layout_weight="1"
+            android:onClick="toInsert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="modify source file\n\noutput： test.html"
+            android:id="@+id/button" />
+
+        <Button
+            android:layout_weight="1"
+
+            android:onClick="toSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HTML to XHTML\n\noutput：temp.html"
+            android:id="@+id/button2" />
+
+        <Button
+            android:layout_weight="1"
+
+            android:onClick="toPrint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="xhtml to PDF\n\n output：test.pdf"
+            android:id="@+id/button3" />
+    </LinearLayout>
+</layout>
